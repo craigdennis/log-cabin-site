@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    background-image: url("/img/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+
+}
+.nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.hamburger {
+    height: 25px;
+}
