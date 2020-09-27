@@ -13,7 +13,7 @@
   margin-top: 8rem;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
@@ -80,7 +80,7 @@ p {
 }
 
 .gallery {
-    margin-bottom: 15rem;
+  margin-bottom: 15rem;
 }
 
 .card {
@@ -90,7 +90,6 @@ p {
   margin-left: 2rem;
   color: white;
   background-color: #93a283;
- 
 }
 
 .card img {
@@ -105,7 +104,7 @@ p {
 }
 
 .card p {
-    padding: 1rem 1rem 1.25rem;
+  padding: 1rem 1rem 1.25rem;
 }
 
 .horizontal-scroll-wrapper {
@@ -115,17 +114,40 @@ p {
 }
 
 .rooms-container {
-    width: 85vw;
-    margin: 0 auto;
+  width: 85vw;
+  margin: 0 auto;
 }
 
-.rooms-container h2 {
-    text-align: center;
-    font-size: 2.75rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
+.rooms-header {
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .rooms-container img {
-    width:100%;
+  width: 100%;
+}
+
+.rooms {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.room-text {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  transform: translateY(-55px);
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.room-text h3 {
+    font-size: 1.7rem;
+}
+
+.room-text h2 {
+    font-weight: 500;
+    font-size: 2.2rem;
 }
