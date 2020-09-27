@@ -78,3 +78,54 @@ p {
   font-weight: 500;
   font-size: 28px;
 }
+
+.gallery {
+    margin-bottom: 15rem;
+}
+
+.card {
+  width: 60%;
+  height: 100%;
+  flex: 0 0 auto;
+  margin-left: 2rem;
+  color: white;
+  background-color: #93a283;
+ 
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+}
+
+.card h2 {
+  margin: 1rem 0 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card p {
+    padding: 1rem 1rem 1.25rem;
+}
+
+.horizontal-scroll-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.rooms-container {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.rooms-container h2 {
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.rooms-container img {
+    width:100%;
+}
