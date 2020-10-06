@@ -140,7 +140,7 @@ p {
 
 .room-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 1rem;
   color: white;
   align-items: center;
   padding: 0 1rem;
@@ -279,7 +279,7 @@ p {
   }
 
   .carousel {
-    width: 100vw;
+    width: 85vw;
     height: 100vh;
     display: flex;
     max-width: 900px;
@@ -448,7 +448,7 @@ p {
   }
 
   .rooms-container {
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
   }
 
   .rooms-grid {
