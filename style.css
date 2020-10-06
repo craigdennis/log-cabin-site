@@ -493,6 +493,15 @@ p {
   .footer-container input {
     width: 50vw;
   }
+
+  .highlight-content {
+    top: 30px;
+    padding-left: 3rem;
+  }
+
+  .footer-container h2 {
+    padding: 4rem 0 5rem;
+  }
 }
 
 @media only screen and (min-width: 900px) {
