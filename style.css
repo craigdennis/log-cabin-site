@@ -533,4 +533,12 @@ p {
   .focus-container p {
     font-size: 1.7em;
   }
+
+  .room-text {
+    bottom: 1.5rem;
+  }
+
+  .footer-container input {
+    width: 30vw;
+  }
 }
