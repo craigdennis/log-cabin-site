@@ -20,7 +20,7 @@ h3 {
   font-size: 1.5em;
 }
 
-p {
+p, li {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em;
   font-weight: 300;
@@ -38,11 +38,33 @@ p {
   display: flex;
   color: white;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
 }
 
 .hamburger {
   height: 25px;
+  display: initial;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+
+}
+
+ul li {
+  margin-right: 1rem;
+}
+
+.nav-list {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 62vw;
 }
 
 .book {
@@ -241,6 +263,15 @@ p {
 }
 
 @media only screen and (min-width: 700px) {
+  
+  .hamburger {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+  
   .highlight-container p {
     font-size: 2.4em;
   }
